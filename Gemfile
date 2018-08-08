@@ -41,6 +41,8 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_bot_rails'
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+  gem 'httparty'
+  gem 'webmock'
 end
 
 group :development do
