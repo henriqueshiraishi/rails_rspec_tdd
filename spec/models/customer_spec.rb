@@ -23,6 +23,17 @@ RSpec.describe Customer, type: :model do
     end
   end
 
+  it 'Atributo Transitório' do
+    customer = create(:customer_default, upcased:true)
+    expect(customer.name.upcase).to eq customer.name
+  end
+
+  it 'Usando o attributes_for' do
+      attrs = attributes_for(:customer)
+      customer = Customer.create(attrs)
+      expect(customer.full_name).to eq "Sr. #{attrs[:name]}"
+  end
+
   it 'Herança de Factory' do
     customer_vip = create(:customer_vip)
     customer_default = create(:customer_default)
