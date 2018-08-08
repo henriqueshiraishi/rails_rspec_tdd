@@ -26,6 +26,12 @@ end
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+  # Executa os testes em order aleatória
+  # config.order = "random"
+  # Caso ocorra um erro em uma execução aleatória, podemos guardar o seed
+  # e executar novamente através do seguinte comando:
+  # $ bin/rspec --seed <NUMERO_SEED>
+
   # FactoryBot Lint - IMPORTANTE - Valida o model antes de quebrar os teste
   # Exemplo: Quando um campo se torna obrigatório, ele aponta o este erro.
   config.before(:suite) { FactoryBot.lint }
