@@ -1,0 +1,327 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<API-URL>/posts/2"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Aug 2018 19:34:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=daa0f60cf70adfffa25af7cd070bd074c1533756855; expires=Thu, 08-Aug-19
+        19:34:15 GMT; path=/; domain=.typicode.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      Expires:
+      - Wed, 08 Aug 2018 23:34:15 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"116-jnDuMpjju89+9j7e0BqkdFsVRjs"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 44746b58ff9487e2-GIG
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 2,
+          "title": "qui est esse",
+          "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+        }
+    http_version: 
+  recorded_at: Wed, 08 Aug 2018 19:34:15 GMT
+- request:
+    method: get
+    uri: "<API-URL>/posts/3"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Aug 2018 19:45:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d54a1905232f8523b65eb8c89cf621aa61533757509; expires=Thu, 08-Aug-19
+        19:45:09 GMT; path=/; domain=.typicode.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      Expires:
+      - Wed, 08 Aug 2018 23:45:09 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"11b-USacuIw5a/iXAGdNKBvqr/TbMTc"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 44747b5408c287fa-GIG
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 3,
+          "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+          "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+        }
+    http_version: 
+  recorded_at: Wed, 08 Aug 2018 19:45:09 GMT
+- request:
+    method: get
+    uri: "<API-URL>/posts/25"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Aug 2018 19:45:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dbbeb7908c2ec223809591c145590ba811533757528; expires=Thu, 08-Aug-19
+        19:45:28 GMT; path=/; domain=.typicode.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      Expires:
+      - Wed, 08 Aug 2018 23:45:28 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"ed-5nZjsj4lJ1lY/Chj2v9voa/MRVw"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 44747bc9ae8d8806-GIG
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 3,
+          "id": 25,
+          "title": "rem alias distinctio quo quis",
+          "body": "ullam consequatur ut\nomnis quis sit vel consequuntur\nipsa eligendi ipsum molestiae et omnis error nostrum\nmolestiae illo tempore quia et distinctio"
+        }
+    http_version: 
+  recorded_at: Wed, 08 Aug 2018 19:45:28 GMT
+- request:
+    method: get
+    uri: "<API-URL>/posts/0"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Wed, 08 Aug 2018 19:45:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d01a748dc4e51da655cd3f0b4cfb4ec011533757543; expires=Thu, 08-Aug-19
+        19:45:43 GMT; path=/; domain=.typicode.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      Expires:
+      - Wed, 08 Aug 2018 23:45:43 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 44747c24fddd881e-GIG
+    body:
+      encoding: UTF-8
+      string: "{}"
+    http_version: 
+  recorded_at: Wed, 08 Aug 2018 19:45:43 GMT
+- request:
+    method: get
+    uri: "<API-URL>/posts/1"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Aug 2018 19:46:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dc221ba81e4880b16359a4b9f0bca3e9f1533757562; expires=Thu, 08-Aug-19
+        19:46:02 GMT; path=/; domain=.typicode.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Vary:
+      - Origin, Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      Expires:
+      - Wed, 08 Aug 2018 23:46:02 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 44747c9c0c1987e2-GIG
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 1,
+          "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+          "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+        }
+    http_version: 
+  recorded_at: Wed, 08 Aug 2018 19:46:02 GMT
+recorded_with: VCR 4.0.0
