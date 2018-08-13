@@ -43,6 +43,8 @@ group :development, :test do
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
   gem 'httparty'
   gem 'webmock'
+  gem 'vcr'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 group :development do
@@ -53,7 +55,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'spring-commands-rspec'
-  gem 'vcr'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
